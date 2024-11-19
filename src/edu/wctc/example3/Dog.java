@@ -37,15 +37,16 @@ public abstract class Dog {
     BASED ON THE ASSUMPTION THAT THE FORMULA FOR ADJUSTED AGE IS CORRECT.
      */
     public int getAdjustedAge() {
-        return realAge * 15;
+        dogAge = realAge * 5
+        return dogAge;
     }
 
 
     /*
      * Sets a dog's age in calendar years (non-adjusted).
      */
-    public void setRealAge(int realAge) {
-        this.realAge = realAge;
+    public void setRealAge(int dogAge) {
+        this.dogAge = dogAge;
     }
 
 }
