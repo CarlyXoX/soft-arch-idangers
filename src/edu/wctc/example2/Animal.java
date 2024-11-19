@@ -26,6 +26,10 @@ public abstract class Animal {
      */
     public void speak(String message) {
         // should check for null first: if(message == null || message.isBlank())
+        if (message == null) {
+            message.isBlank();
+        }
+
         if (message.isBlank()) {
             message = "[mute]";
         }
