@@ -17,7 +17,8 @@ package edu.wctc.example1;
  result will be "[mute]". Ooooops!
  */
 public class Dog extends Animal {
-    public void speak() {
-        System.out.println("bark");
+    public Dog() {
+        setSpokenMessage("Woof")
     }
+
 }

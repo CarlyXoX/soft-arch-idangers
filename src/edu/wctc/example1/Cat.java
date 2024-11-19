@@ -14,5 +14,8 @@ package edu.wctc.example1;
  project there is a good chance that these things will be true.
  */
 public class Cat extends Animal {
+    public Cat() {
+        setSpokenMessage("Meow")
+    }
 
 }

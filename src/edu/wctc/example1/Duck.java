@@ -21,7 +21,8 @@ package edu.wctc.example1;
  be problems.
  */
 public class Duck extends Animal {
-    public void speak() {
-        System.out.println("quack");
+    public Duck() {
+        setSpokenMessage("Quack")
     }
+
 }
